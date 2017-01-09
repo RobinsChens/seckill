@@ -38,6 +38,6 @@ create table success_killed(
 )engine=InnoDB DEFAULT CHARSET=utf8 COMMENT='秒杀成功明细表';
 
 #create user
-CREATE user kfman@'localhost' IDENTIFIED BY 'robin';
+CREATE user robin@'localhost' IDENTIFIED BY 'robin';
 #grant user
 grant all privileges on seckill.* to robin@'%' identified by 'robin' ;
